@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#youtube">Cuidado de cachorros</a></li>
+        </ol>
+    </nav>
+<h1>InstaPet</h1>
+<p>Registra tu mascota.</p>
+<form action=""><label for="mascota"><b>Nombre:</b></label>
+    <input id="mascota" type="text" name="nombre" placeholder="Nombre de la mascota" required>
+    <br>
+    <label for="edad"><b>Edad:</b></label>
+    <input id="edad" type="number" name="Edad" placeholder="Edad de la mascota" required>
+    <br>
+    <label for="correo"><b>Correo:</b></label>
+    <input id="correo" type="text" name="email" placeholder="Correo" required>
+    <br>
+    <label for="color"><b>Color</b></label>
+    <input id="color" type="color">
+    <br>
+    <label for="clave"><b>Contraseña:</b></label>
+    <input id="clave" type="password" name="pass" placeholder="Ingrese contraseña" required>
+    <br>
+    <label for="raza"><b>Selecciona la raza:</b></label>
+    <select name="seleccion" id="raza">
+        <option value="o1">Bulldog</option>
+        <option value="o2">Pastor alemán</option>
+        <option value="o3">Poodle</option>
+        <option value="o4">Akita Inu</option>
+        <option value="o4">Boxer</option>
+    </select>
+    <br>
+    <label for=""><b> Servicio:</b>
+    <input type="radio" name="opcion" id="r1" value="opcion 1" required>Peluqueria
+    <input type="radio" name="opcion" id="r2" value="opcion 2" required>Vacunación
+    <input type="radio" name="opcion" id="r3" value="opcion 3" required>Atención
+    </label>
+    <br>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje (indicaciones y/o consultas)."></textarea>
+    <br>
+    <input type="checkbox" required><b>Acepto las condiciones.</b>
+    <br>
+    <input type="checkbox"><b>Recibir notificaciones al correo.</b> 
+    <br>
+    <input id="submit" type="submit">
+</form>
+<div id="ubicacion" class="ubicacion">
+    <h2 class="subtitulo">Nuestra ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020.0188192870799!2d-73.21551783528234!3d-40.792254997579604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x384269fc6dc6d2b3!2zNDDCsDQ3JzMyLjEiUyA3M8KwMTInNTMuMiJX!5e1!3m2!1ses-419!2scl!4v1650394190470!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<div id="youtube" class="youtube">
+    <h2 class="subtitulo">El cuidado de tus mascotas es fundamental</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9dDemBxxulo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+</div>
+   
+</body>
+</html>

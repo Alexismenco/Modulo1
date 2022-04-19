@@ -1,0 +1,86 @@
+body {
+    background-image: url(../img/bc.jpg);
+    background: linear-gradient(to right, rgba(47, 4, 69, 0.459), hsla(318, 85%, 22%, 0.664)), url(../img/bc.jpg);
+    background-size: cover;
+    position: relative;
+    
+    background-attachment:fixed;
+    color: aquamarine;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    
+}
+a {
+    padding-left: 12px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+ol {
+   
+    list-style: none;
+}
+form {
+    text-align: center;
+}
+h1 {
+    margin-top: 100px;
+    font-size: 350%;
+    text-shadow: 5px 5px 5px rgb(3, 3, 9);
+}
+p {
+    font-size: 22px;
+}
+
+input {
+    padding: 4px;
+    margin: 12px;
+    border-radius: 10px;
+    border-color: aquamarine;
+}
+
+#submit {
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: aquamarine;
+    border-radius: 5px;
+}
+textarea {
+    margin: 15px;
+    background-color: rgba(red, green, blue, 0.5%);
+    border-radius: 8px;
+    border-color: aquamarine;
+}
+iframe {
+    border-radius: 25px;
+    box-shadow: 0 0 40px 0 
+    rgb(0 0 0 / 100%);
+}
+select {
+    margin: 15px;
+    border-radius: 15px;
+    border-color: aquamarine;
+}
+
+.subtitulo {
+    margin-top: 100px;
+    text-shadow: 5px 5px 5px rgb(3, 3, 9);
+}
+.ubicacion {
+    margin-top: 8%;
+}
+
+.youtube {
+    padding-top: 10%;
+    margin-bottom: 10%;
+}

@@ -3,7 +3,7 @@ body {
     background: linear-gradient(to right, rgba(47, 4, 69, 0.459), hsla(318, 85%, 22%, 0.664)), url(../img/bc.jpg);
     background-size: cover;
     position: relative;
-    
+    font-family: sans-serif;
     background-attachment:fixed;
     color: aquamarine;
     text-align: center;

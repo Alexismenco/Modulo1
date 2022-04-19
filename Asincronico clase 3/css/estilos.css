@@ -1,0 +1,74 @@
+
+body {
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/4WKCWEO5EPV2GFRQ5S4XIPOCWE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    background-attachment:fixed;
+    font-family: "Homer Simpson UI";
+    
+}
+
+h1 {
+    padding: 3%;
+    font-size: 300%;
+    text-shadow: 5px 5px 5px rgb(3, 3, 9);
+    color: azure;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    margin: -20px;
+}
+nav {
+    padding-right: 4%;
+    padding-top: 1%;
+}
+
+li {
+    margin-top: 0px;
+    padding: 2%;
+    list-style: none;
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+img {
+    display: block;
+    width: 73%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 5%;
+    box-shadow: 0 0 40px 0 
+    rgb(0 0 0 / 80%);
+}
+a {
+    color: aqua;
+    text-decoration: none;
+    
+}
+button {
+    font-size: 4vh;
+    margin: 6vh;
+    margin-bottom: 5vh;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+p {
+    padding: 4%;
+    display: block;
+    text-align: center;
+    color: #187e7e;
+    font-size: 4vh;
+    color: rgb(5, 10, 10);
+}
+ .h2 {
+     font-size: 312%;
+     text-shadow: 2px 1px 7px rgb(3, 3, 9);
+ }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asincronica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body class="bg-black" style="color: aquamarine; background-image: url(https://www.mochilerosviajeros.com/wp-content/uploads/2021/02/AURORA-BOREAL-scaled.jpg); background-size: cover; background-repeat: no-repeat; background-attachment:fixed; margin: 0px; overflow-x: hidden; font-size: 20px;"><!-- AM-->
+
+    <!-- Nav -->
+    <nav class="navbar navbar-light bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="" style="color: aquamarine;">Inicio</a>
+          <button class="navbar-toggler border-success border-2" style="color: transparent;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class=" navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header bg-transparent">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" >Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close text-white "><b>X</b></button>
+            </div>
+            <div class="offcanvas-body bg-transparent text-white">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: aquamarine;" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: aquamarine;" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" style="color: aquamarine;" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacto
+                  </a>
+                  <ul class="dropdown-menu bg-transparent" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item " style="color: aquamarine;" href="https://www.linkedin.com/in/alexismenco/" target="_blank">Linkedin</a></li>
+                    <li><a class="dropdown-item" style="color: aquamarine;" href="mailto:mencoalexis@gmail.com">Gmail</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex bg-transparent">
+                <input class="form-control me-2 bg-transparent" type="search" placeholder="Buscar" aria-label="Search" style="color: aquamarine;">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Card -->
+
+    <div class="bg-image"  style="margin-top: 200px;">
+        <div class="card bg-transparent border-success mx-auto mask" style="width: 18rem; border-radius: 22px;" >
+            <img src="https://images.unsplash.com/photo-1650390838469-cffe7aff0d8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="card-img-bottom p-3 mask" style="border-radius: 25px;">
+            <div class="card-body text-center" >
+              <h5 class="card-title">CENA</h5>
+              <p class="card-text">Una maravillosa cena para dos personas, en una de las mejores cabañas con vista al lago.</p>
+              <a href="#" class="btn btn-primary ">Reservar</a>
+         </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Columnas -->
+    <div class="container mb-5">
+        <div class="row align-items-center">
+            <!-- Columna uno form -->
+          <div class="col text-center"><b> Inicia Sesión </b>
+            <!-- Formulario -->
+            <form class="text-center">
+                <br>
+                <div class="mb-3 text-center" >
+                  <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                  <div id="emailHelp" class="form-text"><br></div>
+                </div>
+                <div class="mb-3 text-center">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+                </div>
+                <div class="mb-3 form-check text-center">
+                  <input type="radio" class="form-check-input" id="exampleCheck1" required>
+                  <label class="form-check-label" for="exampleCheck1">Todo correcto.</label>
+                </div>
+                <div class="mb-3 form-check text-center">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recordar Contraseña.</label>
+                  </div>
+                  <div class="mb-3 form-check text-center">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" disabled>
+                    <label class="form-check-label" for="exampleCheck1">No soy un Robot.</label>
+                  </div>
+                  <div class="mb-3 form-check text-center">
+                    <input type="checkbox" class="form-check-input" style="display: flex;
+                    align-items: center;
+                    justify-content: center;" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Mantener secion iniciada.</label>
+                  </div>
+                <button type="submit" class="btn btn-primary" >Enviar</button>
+            </form>
+
+          </div>
+
+
+          <!-- Columna dos vacia -->
+          <div class="col"></div>
+
+
+          <!-- Columna tres Lorem -->
+          <div class="col">
+              <h4 style="-webkit-text-stroke: 1px black;">Lorem</h4>
+              <p style="-webkit-text-stroke: 0.5px black;" >
+            One of three columns
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugiat, molestiae omnis deleniti, quod unde fugit aliquid facere reprehenderit ipsam ipsum atque, ex totam sit? Eos iste ullam illum eum.
+                </p>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!-- AM -->
+</body>
+</html>
